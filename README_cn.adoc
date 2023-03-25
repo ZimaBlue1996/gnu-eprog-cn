@@ -1,0 +1,24 @@
+= 使用GNU工具链进行嵌入式编程
+这是一个使用GNU工具链进行裸机编程的简短指南。本指南使用Qemu模拟ARM开发板，
+同时提供在模拟机器上测试程序的指令。适用于一下主题。
+
+  * 编写汇编语言程序
+  * 使用make自动化构建
+  * 编写链接器脚本
+  * 编写C启动代码
+  * 使用C库
+  * 内联汇编
+
+The tutorial is written in asciidoc. The asciidoc source is converted
+to DocBook and then rendered to HTML.
+
+下面给出在Debian Jessie上构建本文档的操作说明。
+
+
+------
+# apt-get install openjdk-7-jre libsaxon-java libxslthl-java docbookxsl asciidoc imgsizer dia
+$ make
+------
+
+本书的官方提供版本可以从这里获取 
+http://www.bravegnu.org/gnu-eprog/
