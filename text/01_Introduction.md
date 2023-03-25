@@ -1,0 +1,15 @@
+# 介绍
+
+GNU工具链越来越多地用于深度嵌入式软件开发。这种类型的软件开发也称为独立 C 编程和裸机 C 编程。独立的C编程带来了新的问题，处理它们需要对GNU工具链有更深入的了解。GNU工具链的手册提供了关于工具链的极好信息，但是手册是从工具链的角度，而不是从问题的角度。好吧，无论如何，手册都应该这样编写。结果是，常见问题的答案分散在各处，GNU工具链的新用户感到困惑。
+
+本教程试图通过从问题的角度解释工具来弥合差距。希望这能让更多的人将GNU工具链用于他们的嵌入式项目。
+
+出于本教程的目的，使用 Qemu 模拟基于 ARM 的嵌入式系统。有了这个，您可以在舒适的桌面上学习 GNU 工具链，而无需投资硬件。本教程本身不教授 ARM 指令集。它应该与其他书籍和在线教程一起使用，例如：
+    ARM Assembler - http://www.heyrick.co.uk/assembler/
+    ARM Assembly Language Programming - http://www.arm.com/miscPDFs/9658.pdf
+
+为了方便读者，附录中列出了常用的 ARM 指令。
+
+上面的链接失效，可以参考以下链接：
+https://developer.arm.com/documentation/dui0473/c/writing-arm-assembly-language/unified-assembler-language?lang=en
+
