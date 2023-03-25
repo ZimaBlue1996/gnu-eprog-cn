@@ -1,5 +1,7 @@
 = Embedded Programming using the GNU Toolchain
 
+link:README_CN.adoc[中文版]
+
 This is a short tutorial on using the GNU toolchain for bare metal
 programming. The tutorial uses Qemu to simulate an ARM board, and
 provides instructions to test programs within the simulated
